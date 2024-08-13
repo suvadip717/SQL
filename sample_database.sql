@@ -84,6 +84,8 @@ ALTER TABLE student DROP COLUMN stu_age;
 
 INSERT INTO student (rollno,name,marks,stu_age) values(107,"gargi",68,32)
 
+TRUNCATE TABLE student;
+
 SELECT * from student;
 
 DROP TABLE student;
